@@ -9,7 +9,6 @@
 <body>  
   
 <%  
-#int number=Integer.parseInt(request.getParameter("id"));  
 int number=45;
 out.println("\n\n The odd numbers upto the number : "+number+" are:");  
 for(int i=1;i<=(number);i++)  
