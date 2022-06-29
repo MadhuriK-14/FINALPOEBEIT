@@ -14,9 +14,9 @@ out.println("\n\n The odd numbers upto the number : "+number+" are:");
 for(int i=1;i<=(number);i++)  
 {  
   
-    if(number%2!=0)  
+    if(i%2!=0)  
     {  
-        out.println(number);  
+        out.println(i);  
     } 
 }  
    
